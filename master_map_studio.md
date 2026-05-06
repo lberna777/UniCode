@@ -1,5 +1,5 @@
 # Master Map — Studio Attivo Universitario
-**Aggiornato**: 2026-04-29 | **Sessione**: 16
+**Aggiornato**: 2026-05-04 | **Sessione**: 17
 
 > **Istruzione per l'AI**: Leggere questo file all'inizio di ogni sessione per riprendere il filo. Non assumere mai che i moduli "verificati" negli appunti GitHub siano stati interiorizzati, a meno che non compaiano come ✅ nel log di sessione qui sotto.
 
@@ -56,6 +56,23 @@ Per Diritto: lettura + sintesi scritta dei punti normativi chiave.
 ## Percorso Modulare
 
 I moduli sono ordinati per dipendenze logiche, non necessariamente per data delle lezioni. Il materiale Virtuale corrispondente è indicato per ogni modulo.
+
+### Corrispondenza nomi Virtuale → file su disco (SysAdmin)
+
+I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento per non cercare PDF inesistenti:
+
+| Titolo Virtuale | File su disco |
+|---|---|
+| "Introduzione alla materia [19 feb]" | `SLIDE TEORIA/SYSADM/01_01__quick-intro-2025-2026.pdf` |
+| "Predisposizione ambiente virtuale [17 feb]" / "Accesso via SSH [24 feb]" | `SLIDE TEORIA/SYSADM/vagrant_ssh.pdf` |
+| "Shell, processi, espansione [5 marzo]" | `SLIDE TEORIA/SYSADM/shell_processi_teoriaespansione.pdf` |
+| "Shell scripting [10 marzo]" | `SLIDE TEORIA/SYSADM/shell_scripting.pdf` |
+| "Gestione di utenti e file [19 marzo]" | `SLIDE TEORIA/SYSADM/21_22__utenti_file.pdf` |
+| "Gestione dei servizi [12 marzo]" | `SLIDE TEORIA/SYSADM/gestione_servizi.pdf` |
+| "Gestione dei pacchetti software [26 feb]" | `SLIDE TEORIA/SYSADM/software.pdf` |
+| "Networking di base [16 aprile]" | `SLIDE TEORIA/SYSADM/net-config.pdf` |
+| "Servizi rete infrastrutturali" | `SLIDE TEORIA/SYSADM/servizi_base_rete.pdf` |
+| PDF lab SysAdmin | `SLIDE LAB/SYSADM/__ LAB __ <titolo> _ Virtuale.pdf` (nomi invariati) |
 
 ### ── BLOCCO 0: Fondamenta Linux ──
 *Prerequisito per tutto il resto. Da completare prima di qualsiasi lab.*
@@ -176,11 +193,10 @@ I moduli sono ordinati per dipendenze logiche, non necessariamente per data dell
 #### Modulo 3D — Networking di Base
 **Corso**: SysAdmin  
 **Materiale Virtuale**:  
-- Teoria: "Networking di base [16 aprile]"  
-- Lab: "Networking di base [16 aprile]"  
+- Teoria+Lab: `SLIDE TEORIA/SYSADM/net-config.pdf` (titolo Virtuale: "Networking di base [16 aprile]") + `servizi_base_rete.pdf` ("Servizi rete infrastrutturali")  
 **Concetti chiave**: interfacce di rete, `ip addr`, `ping`, `ss`/`netstat`, routing di base, DNS, `/etc/hosts`, `/etc/resolv.conf`  
 **Esercizio attivo**: Lab Virtuale — configurare e verificare la rete sulla VM Debian  
-**Stato**: ⬜ Da fare
+**Stato**: 🔄 Es. 1 (ip a, ip r) eseguito; Es. 2–6 (ping, ss, DNS, hosts, tcpdump) da eseguire — `claudeAppunti/APPUNTI SYSADM/appunti_modulo3D_networking_base.md`
 
 #### Modulo 3E — Vagrant Multi-Machine e Configurazione Rete VM
 **Corso**: SysAdmin  
@@ -215,7 +231,7 @@ I moduli sono ordinati per dipendenze logiche, non necessariamente per data dell
 **Concetti chiave**: vulnerability assessment e penetration testing, fasi di un attacco (reconnaissance → exploitation → post-exploitation), `nmap` (scansione porte, versioni, OS), banner grabbing, enumerazione utenti  
 **Esercizio attivo**: LAB su "Tre target combinati" — enumerare host, servizi e utenti  
 **Connessione SysAdmin**: I servizi configurati in 3A sono esattamente ciò che Nmap trova qui  
-**Stato**: ⬜ Da fare
+**Stato**: 🔄 In corso — lezione pronta (`claudeLezioni/LEZIONI SECURITY/lezione_moduloS1_offensive_security_enumerazione.md`); lab VM non ancora eseguito
 
 #### Modulo S2 — Autenticazione
 **Corso**: Security  
@@ -374,6 +390,44 @@ I moduli sono ordinati per dipendenze logiche, non necessariamente per data dell
 ---
 
 ## Log di Sessione
+
+### Sessione 18 — 2026-05-06 (in corso)
+**Focus**: SysAdmin 3D (lezione) + Security S1 (analisi appunti grezzi)
+
+**Coperto in sessione**:
+- Analisi appunti grezzi S1: Lorenzo ha eseguito `ip a` su Parrot ma non ha trovato le ISO dei target; domande aperte su lo, porte, TCP, Nmap — tutte riconducibili a lacune di networking di base
+- Decisione: fare 3D SysAdmin (networking) prima di tornare agli appunti S1
+- Letti `net-config.pdf` e `servizi_base_rete.pdf`
+- Creata `claudeLezioni/LEZIONI SYSADM/lezione_modulo3D_networking_base.md`
+  - Contenuto: modello Internet/IP, CIDR/netmask, ARP, porte e servizi, three-way handshake TCP, NAT/SNAT/DNAT, tipi di interfaccia VirtualBox (NAT/Host-only/Internal/Bridged), `ip a`/`ip r`, `ping`/`ss`/`traceroute`/`tcpdump`, DNS e NSS
+  - 6 esercizi guidati sulla VM (lo interfaccia, ping, ss, DNS, /etc/hosts, tcpdump)
+  - Connessione esplicita con Security S1 (Nmap, superficie d'attacco, three-way handshake)
+- Nota: PDF lab "Networking di base [16 aprile]" non presente — esercizi costruiti dalla teoria
+
+**Coperto in sessione (aggiornamento)**:
+- Appunti 3D elaborati → `claudeAppunti/APPUNTI SYSADM/appunti_modulo3D_networking_base.md`
+  - 20+ domande aperte risolte: router vs gateway, ARP e pacchetti, host-id vs MAC, netmask/CIDR con output reale VM, subnet, IP privati, NAT vs MAC, three-way handshake, ip a/ip r riga per riga, IPv6 link-local vs global
+  - Es. 1 (ip a, ip r) eseguito ✅; Es. 2–6 (ping, ss, DNS, hosts, tcpdump) ancora da eseguire ⬜
+
+**Prossima sessione — da dove partire**:
+→ **SysAdmin 3D Es. 2–6** — leggere le risposte nelle domande aperte degli appunti, poi eseguire sulla VM: `ping`, `ss -tlnp`, DNS (`/etc/hosts`, `dig`), alias hosts, tcpdump. Poi `/appunti 3D` per integrare.
+→ **Security S1 appunti** — dopo aver completato 3D, tornare agli appunti grezzi S1 (`/appunti S1`)
+→ **Diritto D4** — `04_DirInfo_2025_BancheDatiSitiWeb_DEF.pdf` già presente, eseguire `/lezione D4`
+
+---
+
+### Sessione 17 — 2026-05-04 (completata)
+**Focus**: Security S1 — lezione creata
+
+**Coperto in sessione**:
+- Letti tutti i PDF Security S1: `05_05__va_pt.pdf` (53 pp.), `__ LAB __ Enumerazione [25 febbraio]_.pdf` (10 pp.), `Istruzioni per la configurazione delle VM_.pdf` (7 pp.), `02_03__lab-intro-2026.pdf` (pp. 1-40)
+- Creata `claudeLezioni/LEZIONI SECURITY/lezione_moduloS1_offensive_security_enumerazione.md`
+- Contenuto: setup VM (VirtualBox, snapshot, rete, credenziali), teoria (VA/PT, kill chain, MITRE ATT&CK, OSINT, DNS enumeration, subdomain enum, IP blocks, host/service enumeration, evasion, Nessus/OpenVAS), lab completo (6 sezioni, dalla predisposizione dei target all'hash cracking)
+
+**Prossima sessione — da dove partire**:
+→ **Security S1 LAB** — eseguire la VM e svolgere le 6 sezioni del lab Enumerazione
+
+---
 
 ### Sessione 16 — 2026-04-29 (completata)
 **Focus**: SysAdmin 3C (pratica VM + appunti) + Diritto D3 (appunti)
