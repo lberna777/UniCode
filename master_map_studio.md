@@ -1,5 +1,5 @@
 # Master Map — Studio Attivo Universitario
-**Aggiornato**: 2026-05-12 | **Sessione**: 20
+**Aggiornato**: 2026-05-13 | **Sessione**: 21
 
 > **Istruzione per l'AI**: Leggere questo file all'inizio di ogni sessione per riprendere il filo. Non assumere mai che i moduli "verificati" negli appunti GitHub siano stati interiorizzati, a meno che non compaiano come ✅ nel log di sessione qui sotto.
 
@@ -393,7 +393,7 @@ I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento p
 **Corso**: Diritto dell'Informatica T  
 **PDF**: `04_DirInfo_2025_BancheDatiSitiWeb_DEF.pdf`  
 **Concetti chiave**: tutela delle banche dati (D.Lgs. 196/1999), diritto sui generis, siti web come opere, responsabilità dell'hosting provider  
-**Stato**: 🔄 Appunti elaborati (Sessione 21 — 2026-05-13) — `claudeAppunti/APPUNTI DIRITTO/appunti_moduloD4_banche_dati_siti_web.md`; domande di autoverifica da completare in autonomia
+**Stato**: ✅ Completato (Sessione 21 — 2026-05-13) — `claudeAppunti/APPUNTI DIRITTO/appunti_moduloD4_banche_dati_siti_web.md`
 
 #### Modulo D5 — Contratti a Oggetto Informatico
 **Corso**: Diritto dell'Informatica T  
@@ -435,10 +435,10 @@ I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento p
   - 11 domande aperte risolte (diritto sui generis solo per BD, distinzione LDA/DA, diritto connesso, "stabilito nell'UE", esempi parti non sostanziali sistematiche, impregiudicati diritti sul contenuto, recap regola dipendente, utente legittimo ≠ autore, esempi contratti, casi e scenari a cosa servono)
   - 2 imprecisioni corrette (definizione BD: mancava "o metodicamente"; BD non selettiva: frase incompleta)
   - 2 sezioni integrate: diritti esclusivi dell'autore, sito web come opera (con tabella giurisprudenza)
-  - Domande di autoverifica: da completare in autonomia dopo lettura appunti
+  - Domande di autoverifica: completate ✅ (5/5 risposte con correzioni integrate)
 
 **Prossima sessione — da dove partire**:
-→ **Diritto D4** — leggere `appunti_moduloD4_banche_dati_siti_web.md` e rispondere alle 5 domande di autoverifica; poi D4 → ✅ e passare a **D5** (`/lezione D5`)
+→ **Diritto D5** — Contratti a oggetto informatico (`05_DirInfo_2026_ContrInformatici_DEF.pdf`); eseguire `/lezione D5`
 → **SysAdmin 3D Es. 2–6** — avviare VM, eseguire: `ping`, `ss -tlnp`, `/etc/hosts`, `dig`, `tcpdump`. Poi `/appunti 3D`
 → **Security S1 LAB** — lezione pronta, eseguire le 6 sezioni sulla VM Kali
 
@@ -809,9 +809,9 @@ Concetto da chiarire: **la stringa di permessi** (`drwxr-xr-x`) — la spiegazio
 ```
 SysAdmin  ████████░░  77%   (10/13 moduli ✅)
 Security  ░░░░░░░░░░   0%   (0/12 moduli ✅)
-Diritto   ██░░░░░░░░  25%   (2/8  moduli ✅)
+Diritto   ████░░░░░░  50%   (4/8  moduli ✅)
 ```
 
-*SysAdmin (13): 0A 0B 1A 1B 2A 2B 2C 3A 3B 3C ✅ | 3D 3E 3F ⬜*
-*Security (12): S1–S12 ⬜*
-*Diritto  (8):  D1 ✅ D2 ✅ D3 ✅ | D4–D8 ⬜*
+*SysAdmin (13): 0A 0B 1A 1B 2A 2B 2C 3A 3B 3C ✅ | 3D 🔄 | 3E 3F ⬜*
+*Security (12): S1 🔄 | S2–S12 ⬜*
+*Diritto  (8):  D1 ✅ D2 ✅ D3 ✅ D4 ✅ | D5–D8 ⬜*

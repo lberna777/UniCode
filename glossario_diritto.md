@@ -28,6 +28,8 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 
 **diritto d'autore (D.A.)** — insieme dei diritti riconosciuti all'autore di un'opera dell'ingegno. Si compone di diritti morali (irrinunciabili, inalienabili, imprescrittibili) e diritti patrimoniali (cedibili, durata 70 anni post mortem). Sorge al momento della creazione dell'opera senza adempimenti formali (art. 6 LDA). Fonte principale: L. 633/1941.
 
+**diritto del costitutore** (*sui generis*) — diritto connesso riconosciuto a chi effettua un investimento rilevante (economico, di tempo, di lavoro) per realizzare, verificare o presentare una banca di dati (art. 102-bis LDA, introdotto dal D.Lgs. 169/1999). Non richiede originalità o creatività. Contenuto: vietare estrazione e reimpiego dell'intera BD o di parti sostanziali. Durata: 15 anni dal completamento. Si applica esclusivamente alle banche di dati.
+
 **diritti connessi** — diritti patrimoniali su opere dell'ingegno riconosciuti dalla legge a soggetti diversi dall'autore (artisti interpreti o esecutori, produttori fonografici, emittenti radiotelevisive, ecc.) che consentono al pubblico di fruire dell'opera. Gli artisti interpreti o esecutori sono titolari anche di diritti morali.
 
 **diritti morali** — diritti esclusivi dell'autore a tutela della sua personalità: paternità dell'opera, integrità, inedito, pentimento. Caratteri: indipendenti dai patrimoniali, irrinunciabili, inalienabili, imprescrittibili. Dopo la morte esercitabili da coniuge, ascendenti e discendenti diretti.
@@ -35,6 +37,10 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 **diritti patrimoniali** — diritti di utilizzazione economica dell'opera (riproduzione, distribuzione, comunicazione al pubblico, traduzione, noleggio, ecc.). Cedibili e trasmissibili; la trasmissione deve essere provata per iscritto (art. 110 LDA). Durata: 70 anni post mortem dell'autore.
 
 **dottrina** — pubblicazioni scritte dagli studiosi del diritto (monografie, trattati, articoli su riviste giuridiche, atti di convegno, note a sentenza, ecc.). Fonte di **supporto** all'interpretazione e alla conoscenza della normativa o della giurisprudenza. **Non fornisce interpretazioni vincolanti**.
+
+## E
+
+**estrazione** (banche di dati) — trasferimento permanente o temporaneo della totalità o di una parte sostanziale del contenuto di una BD su un altro supporto, effettuato con qualsiasi mezzo e in qualsiasi forma (art. 102-bis LDA). Distinta dalla semplice consultazione. Vietata senza autorizzazione del costitutore.
 
 ## F
 
@@ -83,6 +89,8 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 ## R
 
 **principio di esaurimento comunitario** — il diritto di distribuzione di un'opera (o copia di SW) si esaurisce nella Comunità europea alla prima vendita effettuata dal titolare o con il suo consenso. Dopo la prima vendita, il titolare non può più controllare la rivendita di quell'esemplare. Non si applica alla messa a disposizione on demand (art. 17 LDA).
+
+**reimpiego** (banche di dati) — qualsiasi forma di messa a disposizione del pubblico della totalità o di una parte sostanziale del contenuto di una BD (distribuzione, noleggio, trasmissione con qualsiasi mezzo e in qualsiasi forma) (art. 102-bis LDA). Vietato senza autorizzazione del costitutore.
 
 **reperimento del diritto** — prima fase della ricerca giuridica: creazione di una base di conoscenza mediante la raccolta di normativa, giurisprudenza e dottrina pertinenti al caso da analizzare.
 

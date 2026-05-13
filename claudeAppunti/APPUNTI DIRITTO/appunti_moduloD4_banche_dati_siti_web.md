@@ -273,27 +273,35 @@ Il diritto d'autore non è l'unico aspetto legale dei siti web. Per costruire un
 
 ## Domande di autoverifica — Risposte
 
-> ⚠️ **Lorenzo ha indicato che risponderà alle domande dopo aver studiato gli appunti definitivi. La sezione è lasciata aperta per completamento autonomo.**
-
 1. Qual è la definizione legale di banca di dati ai sensi dell'art. 2 n. 9 L. 633/41? Cosa comprende e cosa esclude la tutela del diritto d'autore su una BD?
 
-   *[risposta da completare]*
+   Una banca di dati è un insieme di opere, dati o elementi indipendenti, selezionati o non, disposti secondo un ordinamento sistematico o metodico e individualmente accessibili. Se la BD è originale e creativa nella **forma espressiva** — nel modo in cui le informazioni vengono ordinate (disposizione) o nella scelta di quali includere (selezione) — è protetta dal diritto d'autore. I diritti tutelati sono quelli classici: riproduzione, traduzione, adattamento, distribuzione, comunicazione al pubblico.
+
+   > **Precisazione**: la creatività nella selezione è il *requisito* per accedere alla tutela, ma ciò che viene protetto è sempre e solo la **forma espressiva** (struttura, disposizione, scelta), mai il contenuto in sé. Un concorrente può legittimamente raccogliere gli stessi dati e riorganizzarli in modo diverso.
 
 2. Qual è la differenza tra BD selettiva e BD non selettiva ai fini del diritto d'autore? Perché un elenco telefonico in ordine alfabetico non è tutelato dal diritto d'autore?
 
-   *[risposta da completare]*
+   Le BD selettive vedono la creatività nella selezione delle informazioni: l'autore sceglie discrezionalmente cosa includere. Le BD non selettive includono indiscriminatamente tutte le informazioni disponibili su un argomento: la creatività, se esiste, va ricercata nella struttura con cui sono organizzate. Un elenco telefonico in ordine alfabetico è privo di qualunque fondamento creativo sia nella selezione (include tutti) sia nella disposizione (ordine alfabetico = criterio meccanico, non originale).
 
 3. Chi è il "costitutore" di una BD e su quale presupposto sorge il diritto *sui generis*? Perché questo diritto tutela anche BD prive di originalità?
 
-   *[risposta da completare]*
+   Il costitutore è chi effettua un investimento rilevante — economico, di tempo o di lavoro — per realizzare, verificare o presentare una BD. Il diritto sui generis si fonda a tutela di questo investimento, indipendentemente da qualsiasi apporto creativo. Si applica esclusivamente alle banche di dati. Le BD prive di originalità non sono coperte dal DA, ma se vi è stato un investimento rilevante il diritto del costitutore le protegge comunque. I due diritti non si escludono: una BD originale e costosa può godere di entrambi simultaneamente.
+
+   > **Precisazione**: "coperte da questo diritto e non dal DA" vale solo quando manca la creatività. Se la BD è anche originale, DA e diritto del costitutore coesistono.
 
 4. Quali sono le differenze tra "estrazione" e "reimpiego" ai sensi dell'art. 102-bis LDA? In quali casi sono vietate anche le estrazioni di parti non sostanziali?
 
-   *[risposta da completare]*
+   L'**estrazione** è il *trasferimento* del contenuto (totale o di una parte sostanziale) su un altro supporto, con qualsiasi mezzo — non la semplice consultazione. Il **reimpiego** è la *messa a disposizione del pubblico* di quella parte sostanziale (distribuzione, noleggio, trasmissione). Si può consultare una BD senza estrarne nulla.
+
+   Le estrazioni di parti **non sostanziali** sono vietate quando sono **ripetute e sistematiche** e risultano contrarie alla normale gestione della BD oppure arrecano ingiustificato pregiudizio al costitutore.
+
+   > **Precisazione**: il danno non è un elemento costitutivo del reimpiego — basta la messa a disposizione del pubblico di una parte sostanziale. Il danno rileva invece come criterio aggiuntivo solo per le parti non sostanziali sistematiche.
 
 5. In quali condizioni un utente legittimo può usare una BD senza autorizzazione del titolare? Le clausole contrattuali che vietano queste attività sono valide?
 
-   *[risposta da completare]*
+   L'utente legittimo può riprodurre, presentare, distribuire e rielaborare la BD senza autorizzazione solo nella misura in cui tali operazioni siano **necessarie per l'accesso al contenuto e per il normale impiego** della BD. È un criterio funzionale: tutela la fruibilità minima di ciò che è stato acquistato, non un generico diritto d'uso. Se l'autorizzazione riguarda solo una parte della BD, i diritti si limitano a quella parte. Le clausole contrattuali che vietano queste attività sono **nulle**.
+
+   > **Precisazione**: il limite non è l'uso commerciale — l'utente legittimo può usare la BD anche per scopi commerciali. Il discrimine è la necessità per il normale impiego. La distinzione commerciale/non commerciale vale invece per le deroghe didattiche (art. 64-sexies), che è un istituto separato.
 
 ---
 
