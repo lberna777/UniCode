@@ -1,0 +1,10 @@
+# Claude Code — impostazioni locali (permessi macchina-specifici)
+.claude/settings.local.json
+
+# Obsidian — stato UI (non utile nel repo)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# File di sistema
+.DS_Store
+Thumbs.db

@@ -352,8 +352,8 @@
             </tr>
             <tr>
               <td class="cmd"><code>ls</code></td>
-              <td><code>-l</code> dettagli · <code>-a</code> nascosti · <code>-la</code> entrambi</td>
-              <td>Lista file. <code>ls -la ~</code> mostra la home con permessi</td>
+              <td><code>-l</code> dettagli · <code>-a</code> nascosti · <code>-la</code> entrambi · <code>-R</code> ricorsivo</td>
+              <td>Lista file. <code>ls -la ~</code> mostra la home con permessi. <code>ls -R</code> entra nelle sottodirectory (quando piped: un file per riga)</td>
             </tr>
             <tr>
               <td class="cmd"><code>cat</code></td>
@@ -485,13 +485,53 @@
           <tbody>
             <tr>
               <td class="cmd"><code>grep</code></td>
-              <td><code>-c</code> conta · <code>-n</code> numera · <code>-v</code> inverso · <code>-i</code> case-insensitive</td>
-              <td>Filtra righe che corrispondono al pattern</td>
+              <td>
+                <code>-c</code> conta le righe con match (stampa un numero, non le righe) ·
+                <code>-n</code> prefissa ogni riga con il suo numero di riga ·
+                <code>-v</code> inverte — restituisce righe che <em>non</em> corrispondono ·
+                <code>-i</code> case-insensitive ·
+                <code>-o</code> stampa solo la parte corrispondente, una per riga — conta <strong>occorrenze</strong>, non righe
+              </td>
+              <td>Filtra righe che corrispondono al pattern. <strong>Attenzione</strong>: senza <code>-o</code> conta righe; con <code>-o</code> conta occorrenze</td>
+            </tr>
+            <tr>
+              <td colspan="3" style="padding:0">
+                <table style="margin:0">
+                  <thead><tr><th>Pattern regex</th><th>Significato</th><th>Esempio</th></tr></thead>
+                  <tbody>
+                    <tr>
+                      <td><code>.</code></td>
+                      <td>Qualsiasi carattere (uno)</td>
+                      <td><code>grep '.'</code> → qualsiasi riga non vuota</td>
+                    </tr>
+                    <tr>
+                      <td><code>\.</code></td>
+                      <td>Punto letterale (<code>\</code> toglie il significato speciale)</td>
+                      <td><code>grep '\.'</code> → righe con un punto nel nome</td>
+                    </tr>
+                    <tr>
+                      <td><code>^</code></td>
+                      <td>Ancora inizio riga</td>
+                      <td><code>grep '^root'</code> → righe che iniziano con "root"</td>
+                    </tr>
+                    <tr>
+                      <td><code>$</code></td>
+                      <td>Ancora fine riga</td>
+                      <td><code>grep ':$'</code> → righe che finiscono con ":"</td>
+                    </tr>
+                    <tr>
+                      <td><code>^$</code></td>
+                      <td>Inizio subito seguito da fine = riga vuota</td>
+                      <td><code>grep -v '^$'</code> → elimina righe vuote</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
             </tr>
             <tr>
               <td class="cmd"><code>sort</code></td>
-              <td><code>file</code></td>
-              <td>Ordina righe alfabeticamente</td>
+              <td><code>-n</code> numerico · <code>-r</code> inverso · <code>-rn</code> num. inverso</td>
+              <td>Ordina righe. Senza flag: alfabetico. Necessario prima di <code>uniq</code> perché <code>uniq</code> conta solo righe <em>consecutive</em> uguali</td>
             </tr>
             <tr>
               <td class="cmd"><code>uniq</code></td>
@@ -504,9 +544,30 @@
               <td>Conta. <code>wc -l &lt; file</code> = numero righe</td>
             </tr>
             <tr>
+              <td class="cmd"><code>rev</code></td>
+              <td></td>
+              <td>Rovescia ogni riga carattere per carattere. Trucco: <code>rev | cut -d'.' -f1 | rev</code> estrae la parte dopo l'<em>ultimo</em> punto (utile per estensioni)</td>
+            </tr>
+            <tr>
               <td class="cmd"><code>cut</code></td>
               <td><code>-d: -f1</code></td>
-              <td>Estrae campo N con delimitatore. Es: <code>cut -d: -f1 /etc/passwd</code></td>
+              <td>Estrae campo N con delimitatore. Es: <code>cut -d: -f1 /etc/passwd</code> · <code>cut -d'.' -f1</code> prende il primo campo prima del punto</td>
+            </tr>
+            <tr>
+              <td class="cmd"><code>tr</code></td>
+              <td>
+                <code>-c</code> complemento (opera su ciò che NON è in SET1) ·
+                <code>-s</code> squeeze (comprime sequenze consecutive del carattere sostituito in uno solo) ·
+                <code>-d</code> elimina i caratteri in SET1 senza sostituirli ·
+                classi POSIX: <code>[:alpha:]</code> lettere · <code>[:upper:]</code> maiuscole · <code>[:lower:]</code> minuscole
+              </td>
+              <td>
+                Sostituisce caratteri: <code>tr 'SET1' 'SET2'</code>. Legge da stdin — usare con <code>&lt;</code> o pipe, non accetta file direttamente.<br>
+                Esempi:<br>
+                <code>tr '[:upper:]' '[:lower:]' &lt; file</code> — lowercase tutto ·
+                <code>tr -cs '[:alpha:]' '\n' &lt; file</code> — una parola per riga (elimina punteggiatura e spazi) ·
+                <code>tr -cd 'a' &lt; file | wc -c</code> — conta occorrenze di 'a'
+              </td>
             </tr>
             <tr>
               <td class="cmd"><code>head</code></td>

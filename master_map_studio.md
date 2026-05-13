@@ -1,5 +1,5 @@
 # Master Map — Studio Attivo Universitario
-**Aggiornato**: 2026-05-04 | **Sessione**: 17
+**Aggiornato**: 2026-05-12 | **Sessione**: 20
 
 > **Istruzione per l'AI**: Leggere questo file all'inizio di ogni sessione per riprendere il filo. Non assumere mai che i moduli "verificati" negli appunti GitHub siano stati interiorizzati, a meno che non compaiano come ✅ nel log di sessione qui sotto.
 
@@ -96,6 +96,40 @@ I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento p
 **Esercizio attivo**: Esercizi "Conta Occorrenze" base dalla VM — pipeline su file di testo, analisi `/etc/passwd`, monitoraggio log  
 **Connessione Security**: `grep` e pipe usati massivamente per analisi di log, output di tool come Nmap  
 **Stato**: ✅ Completato (Sessione 4 — 2026-04-16)
+
+---
+
+### ── TRACCIA ESERCIZI SCRIPTING ──
+*Traccia parallela ai moduli — esercizi progressivi orientati all'esame. Due tipi:*
+- ***lab_NN*** — esercizi risolti dal prof (PDF "Esercizi di scripting risolti"), da leggere → capire → eseguire → documentare
+- ***es_NN*** — esercizi da costruire da zero (nostri + assegnamenti Virtuale)
+
+*File in `esercizi/`. Approccio per lab_: leggi il codice, predici il comportamento, poi esegui. Non copiare passivamente.*
+
+#### Catena A — ls ricorsivo
+| ID | Titolo | Tipo | Concetti nuovi | Stato |
+|----|--------|------|----------------|-------|
+| lab_01 | ls ricorsivo (funzioni, subshell, cicli) | lab PDF p.4-5 | funzioni, subshell `( )`, `test -d`, `cd ..`, ricorsione | ⬜ |
+| lab_02 | ls ricorsivo alternative (while, read, filtri) | lab PDF p.6-7 | `ls -l \| while read`, `awk`, `[[ =~ ]]`, `cd -`, symlink parsing | ⬜ |
+| lab_03 | ls ricorsivo estensioni (elif, $@) | lab PDF p.8 | `$@`, loop su argomenti multipli | ⬜ |
+| es_03 | estparam.sh | assegnamento | estende lab_03: conta file per estensione in albero parametrico | ⬜ |
+
+#### Catena B — conversione e manipolazione del tempo
+| ID | Titolo | Tipo | Concetti nuovi | Stato |
+|----|--------|------|----------------|-------|
+| lab_04 | conversione tempo (calendario → promemoria) | lab PDF p.9 | `date +%s`, `date -d`, `mktemp`, `while sleep`, `egrep` | ⬜ |
+| lab_05 | pianificazione eventi (plan.sh + remind.sh) | lab PDF p.10 | `grep -q`, `grep -x`, `grep -qx`, parametri obbligatori | ⬜ |
+| lab_06 | esecuzione con cron | lab PDF p.11 | `grep -Fvx` per dedup crontab, `crontab file` | ⬜ |
+| lab_07 | esecuzione con at | lab PDF p.12 | `at -t`, `flock`, lock su file condiviso | ⬜ |
+| es_04 | estensione risolti (rimozione eventi) | assegnamento | estende lab_05–07: gestire cancellazione eventi dal calendario | ⬜ |
+
+#### Catena C — processi e segnali
+| ID | Titolo | Tipo | Concetti nuovi | Stato |
+|----|--------|------|----------------|-------|
+| es_05 | waitfile (case, sleep, exit code) | assegnamento | `case` su $3, `sleep 1`, retry con contatore, exit code semantici | ⬜ |
+| es_06 | parallenne.sh (processi paralleli) | assegnamento | `$!`, PID tracking, `/proc/PID/comm`, `trap`, log su file | ⬜ |
+| es_07 | segnali girati (debug script rotto) | assegnamento | `trap`, subshell e variabili, `tail -f \| while read`, BASHPID vs $$ | ⬜ |
+| es_08 | conta occorrenze avanzato (parallelo+segnali) | assegnamento — estende es_02 | `wc -l`, `head`/`tail` per dimezzare file, `wait`, `trap USR1`, file temporanei | ⬜ |
 
 ---
 
@@ -359,7 +393,7 @@ I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento p
 **Corso**: Diritto dell'Informatica T  
 **PDF**: `04_DirInfo_2025_BancheDatiSitiWeb_DEF.pdf`  
 **Concetti chiave**: tutela delle banche dati (D.Lgs. 196/1999), diritto sui generis, siti web come opere, responsabilità dell'hosting provider  
-**Stato**: ⬜ Da fare
+**Stato**: 🔄 Appunti elaborati (Sessione 21 — 2026-05-13) — `claudeAppunti/APPUNTI DIRITTO/appunti_moduloD4_banche_dati_siti_web.md`; domande di autoverifica da completare in autonomia
 
 #### Modulo D5 — Contratti a Oggetto Informatico
 **Corso**: Diritto dell'Informatica T  
@@ -390,6 +424,78 @@ I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento p
 ---
 
 ## Log di Sessione
+
+### Sessione 21 — 2026-05-13 (in corso)
+**Focus**: Diritto D4 — Tutela giuridica delle banche di dati e siti web
+
+**Coperto in sessione**:
+- Letto PDF `04_DirInfo_2025_BancheDatiSitiWeb_DEF.pdf` (29 slide)
+- Creata lezione D4 → `claudeLezioni/LEZIONI DIRITTO/lezione_moduloD4_banche_dati_siti_web.md`
+- Appunti modulo D4 elaborati → `claudeAppunti/APPUNTI DIRITTO/appunti_moduloD4_banche_dati_siti_web.md`
+  - 11 domande aperte risolte (diritto sui generis solo per BD, distinzione LDA/DA, diritto connesso, "stabilito nell'UE", esempi parti non sostanziali sistematiche, impregiudicati diritti sul contenuto, recap regola dipendente, utente legittimo ≠ autore, esempi contratti, casi e scenari a cosa servono)
+  - 2 imprecisioni corrette (definizione BD: mancava "o metodicamente"; BD non selettiva: frase incompleta)
+  - 2 sezioni integrate: diritti esclusivi dell'autore, sito web come opera (con tabella giurisprudenza)
+  - Domande di autoverifica: da completare in autonomia dopo lettura appunti
+
+**Prossima sessione — da dove partire**:
+→ **Diritto D4** — leggere `appunti_moduloD4_banche_dati_siti_web.md` e rispondere alle 5 domande di autoverifica; poi D4 → ✅ e passare a **D5** (`/lezione D5`)
+→ **SysAdmin 3D Es. 2–6** — avviare VM, eseguire: `ping`, `ss -tlnp`, `/etc/hosts`, `dig`, `tcpdump`. Poi `/appunti 3D`
+→ **Security S1 LAB** — lezione pronta, eseguire le 6 sezioni sulla VM Kali
+
+---
+
+### Sessione 20 — 2026-05-12 (completata)
+**Focus**: SysAdmin — Esercizio 02 bash scripting (testo libero)
+
+**Coperto in sessione**:
+- Esercizio 02: script `conta_occorrenze.sh` che accetta un file come `$1` e stampa:
+  1. Occorrenze della lettera `a` → `grep -o 'a' "$1" | wc -l` → **34377**
+  2. Occorrenze di `sherlock` case insensitive → `grep -oi 'sherlock' "$1" | wc -l` → **99**
+  3. Top 5 parole per frequenza → `tr '[:upper:]' '[:lower:]' < "$1" | tr -cs '[:alpha:]' '\n' | sort | uniq -c | sort -rn | head -5`
+- Esplorazione sistematica dei flag di `grep`: differenza tra contare righe (senza `-o`) e contare occorrenze (con `-o`); comportamento di `-c`, `-n`, `-v`, `-i`, `-o` testati sul file reale
+- Introdotto `tr`: flag `-c`, `-s`, `-d`; classi POSIX `[:alpha:]`, `[:upper:]`, `[:lower:]`; pattern "una parola per riga" con `tr -cs '[:alpha:]' '\n'`
+- Ragionamento su lowercase prima della tokenizzazione (ordine dei passi nella pipeline)
+- Creato `esercizi/es_02_conta_occorrenze.md` con script, tabella flag grep, spiegazione passo per passo e tutti i ragionamenti intermedi
+- Cheatsheet aggiornato: `grep` con descrizioni precise dei flag; voce `tr` aggiunta con flag e classi POSIX
+- Trasferimento file host → VM tramite cartella condivisa Vagrant (`/vagrant/`)
+
+**Non coperto / da riprendere**:
+- SysAdmin 3D Es. 2–6 (ping, ss, DNS, hosts, tcpdump) — invariato
+- Diritto D4 — invariato
+- Security S1 LAB — invariato
+
+**Prossima sessione — da dove partire**:
+→ **SysAdmin 3D Es. 2–6** — avviare VM, eseguire: `ping`, `ss -tlnp`, `/etc/hosts`, `dig`, `tcpdump`. Poi `/appunti 3D`
+→ **Diritto D4** — `04_DirInfo_2025_BancheDatiSitiWeb_DEF.pdf` già presente, eseguire `/lezione D4`
+→ **Security S1 LAB** — lezione pronta, eseguire le 6 sezioni sulla VM Kali
+
+---
+
+### Sessione 19 — 2026-05-11 (completata)
+**Focus**: SysAdmin — ripasso 0B (pipeline esercizio) + strumenti studio
+
+**Coperto in sessione**:
+- Esercizio pipeline: conta file per estensione, top 5 — costruito passo per passo sulla VM
+  - Pipeline completa: `ls -R 2>/dev/null | grep -v ':$' | grep -v '^$' | grep '\.' | rev | cut -d'.' -f1 | rev | sort | uniq -c | sort -rn | head -5`
+  - Spiegati: `ls -R` in modalità pipe (un file per riga), filtro intestazioni con `:$`, filtro righe vuote con `^$`, punto letterale `\.` vs punto regex `.`, trucco `rev|cut|rev` per ultimo campo, doppio uso di `sort` (raggruppare per `uniq` + ordinare per frequenza), flag `-n`/`-r`/`-rn` di `sort`
+- Cheatsheet `cheatsheet_sysadm.html` aggiornato:
+  - `ls`: aggiunto flag `-R` con nota sul comportamento piped
+  - `sort`: aggiunti flag `-n`, `-r`, `-rn` + nota sul rapporto con `uniq`
+  - `grep`: aggiunta sottotabella regex anchors (`^`, `$`, `^$`, `.`, `\.`)
+  - `rev`: voce nuova con trucco `rev|cut|rev`
+  - `cut`: aggiornata descrizione
+- Creata directory `esercizi/` con `es_01_conta_estensioni.md` — documentazione completa passo per passo
+
+**Non coperto / da riprendere**:
+- SysAdmin 3D Es. 2–6 (ping, ss, DNS, hosts, tcpdump) — nessun lavoro sulla VM oggi
+- Diritto e Security: invariati
+
+**Prossima sessione — da dove partire**:
+→ **SysAdmin 3D Es. 2–6** — avviare VM, eseguire: `ping`, `ss -tlnp`, `/etc/hosts`, `dig`, `tcpdump`. Poi `/appunti 3D`
+→ **Diritto D4** — `04_DirInfo_2025_BancheDatiSitiWeb_DEF.pdf` già presente, eseguire `/lezione D4`
+→ **Security S1 LAB** — dopo 3D, tornare agli appunti grezzi S1 (`/appunti S1`)
+
+---
 
 ### Sessione 18 — 2026-05-06 (in corso)
 **Focus**: SysAdmin 3D (lezione) + Security S1 (analisi appunti grezzi)
