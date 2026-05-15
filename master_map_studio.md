@@ -1,5 +1,5 @@
 # Master Map — Studio Attivo Universitario
-**Aggiornato**: 2026-05-13 | **Sessione**: 21
+**Aggiornato**: 2026-05-14 | **Sessione**: 22
 
 > **Istruzione per l'AI**: Leggere questo file all'inizio di ogni sessione per riprendere il filo. Non assumere mai che i moduli "verificati" negli appunti GitHub siano stati interiorizzati, a meno che non compaiano come ✅ nel log di sessione qui sotto.
 
@@ -399,7 +399,7 @@ I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento p
 **Corso**: Diritto dell'Informatica T  
 **PDF**: `05_DirInfo_2026_ContrInformatici_DEF.pdf`  
 **Concetti chiave**: tipologie di contratto informatico, licenza d'uso, contratto di sviluppo software, SLA, outsourcing, contratto cloud  
-**Stato**: ⬜ Da fare
+**Stato**: ✅ Completato (Sessione 22 — 2026-05-14) — `claudeAppunti/APPUNTI DIRITTO/appunti_moduloD5_contratti_informatici.md`
 
 #### Modulo D6 — Analisi di un Contratto di Sviluppo Software
 **Corso**: Diritto dell'Informatica T  
@@ -425,7 +425,28 @@ I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento p
 
 ## Log di Sessione
 
-### Sessione 21 — 2026-05-13 (in corso)
+### Sessione 22 — 2026-05-14 (completata)
+**Focus**: Diritto D5 — Contratti a oggetto informatico
+
+**Coperto in sessione**:
+- Appunti grezzi D5 scritti da Lorenzo dalla lezione → elaborati in `claudeAppunti/APPUNTI DIRITTO/appunti_moduloD5_contratti_informatici.md`
+  - 18 domande aperte risolte (conclusione del contratto, inizio dell'esecuzione, moduli/formulari, legislatore/Codice consumo, clausole escluse da vessatorietà, illegalità clausole vessatorie, locazione e licenza, clausole esclusione garanzia, shrink-wrap e doppia firma, negozio giuridico, copyleft con esempio, CCPlus/CC0/brevetti/garanzia/diritti terzi, qualificazione contratto sviluppo, d'opera intellettuale spiegazione completa, manutenzione e clausole licenza, escrow codice sorgente, nullità parziale con esempi)
+  - 1 imprecisione corretta: risposta autoverifica 5 — CC BY ≠ pubblico dominio; CC0 = pubblico dominio con rinuncia totale inclusa attribuzione
+  - 2 sezioni integrate: requisiti del contratto (§2, causa/motivi); contratto d'opera intellettuale completo (§18)
+  - Domande di autoverifica: 5/5 risposte presenti negli appunti grezzi (alcune incomplete, tutte integrate)
+
+**Non coperto / da riprendere**:
+- SysAdmin 3D Es. 2–6 — invariato
+- Security S1 LAB — invariato
+
+**Prossima sessione — da dove partire**:
+→ **Diritto D6** — Analisi di un contratto di sviluppo software (`06_DirInfo_2026_SchemaContratt_DEF.pdf`) — eseguire `/lezione D6`
+→ **SysAdmin 3D Es. 2–6** — avviare VM, eseguire: `ping`, `ss -tlnp`, `/etc/hosts`, `dig`, `tcpdump`. Poi `/appunti 3D`
+→ **Security S1 LAB** — lezione pronta, eseguire le 6 sezioni sulla VM Kali
+
+---
+
+### Sessione 21 — 2026-05-13 (completata)
 **Focus**: Diritto D4 — Tutela giuridica delle banche di dati e siti web
 
 **Coperto in sessione**:
@@ -436,11 +457,7 @@ I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento p
   - 2 imprecisioni corrette (definizione BD: mancava "o metodicamente"; BD non selettiva: frase incompleta)
   - 2 sezioni integrate: diritti esclusivi dell'autore, sito web come opera (con tabella giurisprudenza)
   - Domande di autoverifica: completate ✅ (5/5 risposte con correzioni integrate)
-
-**Prossima sessione — da dove partire**:
-→ **Diritto D5** — Contratti a oggetto informatico (`05_DirInfo_2026_ContrInformatici_DEF.pdf`); eseguire `/lezione D5`
-→ **SysAdmin 3D Es. 2–6** — avviare VM, eseguire: `ping`, `ss -tlnp`, `/etc/hosts`, `dig`, `tcpdump`. Poi `/appunti 3D`
-→ **Security S1 LAB** — lezione pronta, eseguire le 6 sezioni sulla VM Kali
+- Creata lezione D5 → `claudeLezioni/LEZIONI DIRITTO/lezione_moduloD5_contratti_informatici.md`
 
 ---
 
@@ -809,9 +826,9 @@ Concetto da chiarire: **la stringa di permessi** (`drwxr-xr-x`) — la spiegazio
 ```
 SysAdmin  ████████░░  77%   (10/13 moduli ✅)
 Security  ░░░░░░░░░░   0%   (0/12 moduli ✅)
-Diritto   ████░░░░░░  50%   (4/8  moduli ✅)
+Diritto   █████░░░░░  63%   (5/8  moduli ✅)
 ```
 
 *SysAdmin (13): 0A 0B 1A 1B 2A 2B 2C 3A 3B 3C ✅ | 3D 🔄 | 3E 3F ⬜*
 *Security (12): S1 🔄 | S2–S12 ⬜*
-*Diritto  (8):  D1 ✅ D2 ✅ D3 ✅ D4 ✅ | D5–D8 ⬜*
+*Diritto  (8):  D1 ✅ D2 ✅ D3 ✅ D4 ✅ D5 ✅ | D6–D8 ⬜*

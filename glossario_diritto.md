@@ -6,17 +6,35 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 
 ## A
 
+**appalto (contratto di)** — contratto con cui l'appaltatore assume, con organizzazione dei propri mezzi e gestione a proprio rischio, il compimento di un'opera o servizio verso corrispettivo (art. 1655 c.c.). Carattere: **obbligazione di risultato**. Nello sviluppo software: si qualifica come appalto quando il committente ingaggia un'impresa (software house). La proprietà dell'opera passa al committente con la consegna.
+
 **atti ufficiali dello Stato** — atti normativi e documenti prodotti dallo Stato e dalle amministrazioni pubbliche. Non sono soggetti alla tutela del diritto d'autore (art. 5 l.d.a.): chiunque può riprodurli liberamente. Rilevante per la ricerca giuridica: testi di leggi, decreti e regolamenti sono liberamente reperibili e riproducibili.
+
+**autonomia contrattuale** — libertà delle parti di determinare liberamente il contenuto del contratto nei limiti imposti dalla legge (art. 1322 c.c.). Comprende la facoltà di stipulare contratti atipici. Limite: interessi meritevoli di tutela secondo l'ordinamento.
 
 **autorità indipendenti (Autorità Garanti)** — soggetti istituzionali la cui qualificazione giuridica è dibattuta. Le loro pronunce svolgono una funzione **para-giurisprudenziale**: contribuiscono a garantire l'esatta osservanza e l'interpretazione uniforme della legge, fornendo un'**interpretazione autentica** o quantomeno **autorevole** delle leggi di riferimento. Esempi: Garante Privacy, AGCM, AGCOM, AgID.
 
 ## B
+
+**buona fede** — principio generale che permea l'intera vita del contratto: le parti devono comportarsi correttamente nelle trattative (art. 1337 c.c. — responsabilità precontrattuale), nell'interpretazione (art. 1366) e nell'esecuzione (art. 1375). Violarlo può generare responsabilità risarcitoria anche in assenza di contratto concluso.
 
 **banca dati (ai fini giuridici)** — raccolta di opere, dati o altri elementi indipendenti sistematicamente o metodicamente disposti ed individualmente accessibili mediante mezzi elettronici o in altro modo (definizione della legge sul diritto d'autore). Distinta dalla definizione informatica (DBMS): qui rileva la struttura e l'accessibilità dei contenuti.
 
 **base giuridica** — fondamento normativo che legittima un'azione o un trattamento. In D1: la norma (legge, contratto, interesse legittimo, ecc.) che giustifica un'obbligazione o un diritto. In privacy (D8): una delle condizioni dell'art. 6 GDPR che rende lecito il trattamento di dati personali.
 
 ## C
+
+**causa (del contratto)** — funzione economico-sociale del contratto, lo scopo pratico oggettivo (art. 1325 c.c.). Distinta dai **motivi**: questi sono le ragioni soggettive delle parti e in linea di principio non rilevano giuridicamente. Esempio: causa di una compravendita = scambio bene/prezzo; motivo = sostituire il vecchio dispositivo.
+
+**clausole vessatorie** — clausole che, malgrado la buona fede, determinano a carico del consumatore un significativo squilibrio dei diritti e degli obblighi (art. 33 D.Lgs. 206/2005). Si presumono tali varie categorie (limitazione responsabilità professionista, recesso unilaterale del solo professionista, ecc.). Non sono vessatorie le clausole che riproducono norme di legge o oggetto di trattativa individuale. Le clausole vessatorie sono **nulle** con nullità di protezione (art. 36).
+
+**condizioni generali di contratto** — condizioni predisposte da uno dei contraenti, efficaci se l'altro le ha conosciute o avrebbe dovuto conoscerle con ordinaria diligenza al momento della conclusione (art. 1341 c.c.). Le clausole particolarmente onerose (limitazione responsabilità, recesso unilaterale, ecc.) richiedono **approvazione specifica per iscritto** (doppia firma).
+
+**consumatore** — persona fisica che agisce per scopi estranei all'attività imprenditoriale, commerciale, artigianale o professionale (art. 3 D.Lgs. 206/2005). Contrapposto al **professionista** (persona fisica o giuridica che agisce nell'esercizio della propria attività). Il consumatore è la parte "debole" e beneficia di tutela rafforzata.
+
+**contratto atipico** — contratto non espressamente previsto e disciplinato dall'ordinamento (a differenza dei contratti tipici come vendita, locazione, appalto). Valido purché diretto a interessi meritevoli di tutela (art. 1322 c.c.). Non ha regole predefinite: si applicano la disciplina generale del contratto e le clausole inserite dalle parti. La **licenza d'uso del software** è il principale contratto atipico del modulo.
+
+**copyleft** — tipo di licenza open source che impone obbligazioni a carico del licenziatario: la distribuzione del software o di opere derivate è consentita **solo alle stesse condizioni della licenza originaria**. Chi sviluppa un derivato non può "chiuderlo" con una licenza proprietaria. Esempio classico: GPL (GNU General Public License).
 
 **Convenzione di Berna** — trattato internazionale sulla protezione delle opere letterarie e artistiche. Principio chiave: il D.A. sorge automaticamente con la creazione, senza adempimenti formali. Il software vi è qualificato come "opera letteraria". Base per il riconoscimento reciproco dei diritti tra gli Stati aderenti.
 
@@ -37,6 +55,10 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 **diritti patrimoniali** — diritti di utilizzazione economica dell'opera (riproduzione, distribuzione, comunicazione al pubblico, traduzione, noleggio, ecc.). Cedibili e trasmissibili; la trasmissione deve essere provata per iscritto (art. 110 LDA). Durata: 70 anni post mortem dell'autore.
 
 **dottrina** — pubblicazioni scritte dagli studiosi del diritto (monografie, trattati, articoli su riviste giuridiche, atti di convegno, note a sentenza, ecc.). Fonte di **supporto** all'interpretazione e alla conoscenza della normativa o della giurisprudenza. **Non fornisce interpretazioni vincolanti**.
+
+## L
+
+**licenza d'uso (software)** — contratto atipico con cui il licenziante cede al licenziatario il **diritto di godimento** del software per il tempo stabilito, eventualmente verso corrispettivo. Non si trasferisce la titolarità né i diritti di utilizzazione economica. Per analogia si applicano le norme sulla locazione (artt. 1571 ss. c.c.) dove compatibili. Le clausole di esclusione di garanzia e responsabilità sono valide nei limiti dell'art. 1229 c.c. (non possono escludere responsabilità per dolo o colpa grave).
 
 ## E
 
@@ -64,13 +86,25 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 
 ## N
 
+**negozio giuridico** — atto volontario con cui un soggetto produce effetti giuridici (crea, modifica o estingue un rapporto giuridico). Il contratto è il tipo più comune di negozio giuridico bilaterale. Anche le licenze software (incluse le open source) sono negozi giuridici: producono effetti giuridici reali indipendentemente dalla forma scritta o dalla firma.
+
+**nullità di protezione** — forma di nullità prevista dal Codice del consumo (art. 36 D.Lgs. 206/2005) per le clausole vessatorie. Caratteristiche: colpisce la singola clausola (non l'intero contratto), può essere fatta valere **solo dal consumatore** (non dal professionista), può essere rilevata d'ufficio dal giudice. Opera a tutela del contraente debole.
+
+**nullità parziale** — la nullità di una clausola o di una parte del contratto importa la nullità dell'**intero contratto** solo se risulta che le parti non lo avrebbero concluso senza quella parte (art. 1419 c.c.). Se le clausole nulle sono sostituite di diritto da **norme imperative**, la nullità non si trasmette al contratto nel suo insieme.
+
 **normativa** — insieme degli atti normativi presenti nell'ordinamento giuridico (direttive, leggi, decreti, regolamenti, ecc.), emanati da autorità a diversi livelli: internazionale, comunitario, nazionale, regionale/locale.
 
 **normattiva.it** — portale della legge vigente gestito dallo Stato italiano. Contiene il **testo consolidato** delle norme nazionali vigenti. Risorsa fondamentale per reperire la versione attualmente in vigore di una norma.
 
 ## O
 
+**obbligazione di mezzi** — obbligazione in cui il debitore si impegna a prestare la propria competenza e diligenza senza garantire il risultato finale. Tipica del **contratto d'opera intellettuale** (libero professionista). La perizia richiesta è quella conforme alle conoscenze tecniche della professione (art. 1176 c.c., 2° comma). Contrapposta all'obbligazione di risultato.
+
+**obbligazione di risultato** — obbligazione in cui il debitore garantisce il conseguimento di un determinato risultato. Tipica del **contratto di appalto**. Il mancato raggiungimento del risultato costituisce inadempimento indipendentemente dalla diligenza impiegata.
+
 **obbligazione** — rapporto giuridico tra un soggetto (debitore) tenuto a una prestazione e un soggetto (creditore) che ha diritto a riceverla. Fonti: contratto, fatto illecito, legge.
+
+**opera intellettuale, contratto d'** — contratto con cui un libero professionista si obbliga a svolgere un'attività intellettuale per il committente (artt. 2230-2238 c.c.). Si qualifica come tale (vs appalto) quando il soggetto è un libero professionista che agisce senza organizzazione d'impresa. Carattere: **obbligazione di mezzi**. Responsabilità limitata a dolo o colpa grave per problemi di speciale difficoltà (art. 2236 c.c.). Titolarità del software: al committente in mancanza di clausole specifiche (per analogia con il lavoratore dipendente).
 
 **OMPI (Organizzazione Mondiale della Proprietà Intellettuale)** — organismo dell'ONU che sovrintende la tutela internazionale della proprietà intellettuale. Fornisce la definizione di riferimento di software nell'ordinamento italiano (in assenza di una definizione legale interna).
 
@@ -105,6 +139,10 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 **riserva di legge** — principio costituzionale per cui determinate materie possono essere disciplinate solo da una legge (o atto avente forza di legge), non da regolamenti. Assoluta: solo la legge; relativa: la legge deve porre i principi, i dettagli possono essere delegati.
 
 ## S
+
+**shareware** — tipo di licenza d'uso che consente l'utilizzo del software per un periodo di prova; successivamente occorre registrarlo e pagare un corrispettivo. La versione di prova può avere limitazioni funzionali, scadenza automatica, assenza di supporto. Dopo l'acquisto un codice sblocca tutte le funzioni.
+
+**shrink-wrap (licenza)** — licenza per software a diffusione di massa, confezionato in involucro trasparente su cui sono stampate le condizioni. L'apertura della confezione sigillata vale come accettazione del contratto (conclusione per comportamento concludente, art. 1327 c.c.). Problema: le clausole onerose che richiederebbero doppia firma (art. 1341 c.c.) potrebbero essere ritenute inefficaci per impossibilità di approvazione specifica per iscritto.
 
 **sentenza** — provvedimento con cui l'autorità giudiziaria prende una decisione, definendo o meno il giudizio, sulle domande ed eccezioni proposte dalle parti, o su qualsiasi altra questione sorta nel corso del processo.
 
