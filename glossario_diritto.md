@@ -26,11 +26,17 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 
 **causa (del contratto)** — funzione economico-sociale del contratto, lo scopo pratico oggettivo (art. 1325 c.c.). Distinta dai **motivi**: questi sono le ragioni soggettive delle parti e in linea di principio non rilevano giuridicamente. Esempio: causa di una compravendita = scambio bene/prezzo; motivo = sostituire il vecchio dispositivo.
 
+**clausola risolutiva espressa** — clausola contrattuale con cui le parti stabiliscono che il contratto si risolve automaticamente di diritto se una determinata obbligazione non viene adempiuta secondo le modalità stabilite (art. 1456 c.c.). La risoluzione opera quando la parte interessata *dichiara* all'altra di volersi avvalere della clausola: nessun intervento del giudice è necessario. Distinta dalla risoluzione giudiziale per inadempimento (art. 1453 c.c.).
+
 **clausole vessatorie** — clausole che, malgrado la buona fede, determinano a carico del consumatore un significativo squilibrio dei diritti e degli obblighi (art. 33 D.Lgs. 206/2005). Si presumono tali varie categorie (limitazione responsabilità professionista, recesso unilaterale del solo professionista, ecc.). Non sono vessatorie le clausole che riproducono norme di legge o oggetto di trattativa individuale. Le clausole vessatorie sono **nulle** con nullità di protezione (art. 36).
 
 **condizioni generali di contratto** — condizioni predisposte da uno dei contraenti, efficaci se l'altro le ha conosciute o avrebbe dovuto conoscerle con ordinaria diligenza al momento della conclusione (art. 1341 c.c.). Le clausole particolarmente onerose (limitazione responsabilità, recesso unilaterale, ecc.) richiedono **approvazione specifica per iscritto** (doppia firma).
 
 **consumatore** — persona fisica che agisce per scopi estranei all'attività imprenditoriale, commerciale, artigianale o professionale (art. 3 D.Lgs. 206/2005). Contrapposto al **professionista** (persona fisica o giuridica che agisce nell'esercizio della propria attività). Il consumatore è la parte "debole" e beneficia di tutela rafforzata.
+
+**contratto d'opera** — contratto con cui una persona si obbliga a compiere verso un corrispettivo un'opera o un servizio, con lavoro prevalentemente proprio e **senza vincolo di subordinazione** nei confronti del committente (art. 2222 c.c.). Carattere: obbligazione di mezzi/risultato a seconda del tipo di prestazione. Si distingue dall'appalto perché qui il lavoro è prevalentemente personale (non organizzazione di mezzi).
+
+**contratto d'opera intellettuale** — contratto che ha per oggetto una **prestazione d'opera intellettuale** (art. 2230 c.c.), riservata ai professionisti iscritti agli appositi albi (art. 2229 c.c.). Regime: artt. 2229–2238 c.c. + norme sul contratto d'opera in quanto compatibili. Caratteristica: obbligazione di mezzi (il professionista mette a disposizione la propria competenza, non garantisce il risultato). Rilevante per il corso: lo sviluppo software compiuto da un ingegnere-persona fisica è un contratto d'opera intellettuale; se compiuto da un'impresa è invece un contratto d'appalto di servizi.
 
 **contratto atipico** — contratto non espressamente previsto e disciplinato dall'ordinamento (a differenza dei contratti tipici come vendita, locazione, appalto). Valido purché diretto a interessi meritevoli di tutela (art. 1322 c.c.). Non ha regole predefinite: si applicano la disciplina generale del contratto e le clausole inserite dalle parti. La **licenza d'uso del software** è il principale contratto atipico del modulo.
 
@@ -43,6 +49,10 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 **capacità di agire** — idoneità di un soggetto a compiere atti giuridici validi in prima persona. Si acquista con la maggiore età (18 anni). Distinta dalla capacità giuridica.
 
 ## D
+
+**decadenza** — perdita definitiva di un diritto per mancato esercizio entro un termine perentorio stabilito dalla legge o dal contratto. A differenza della prescrizione, la decadenza non può essere interrotta o sospesa. Rilevante in D6: il committente decade dal diritto di far valere i vizi occulti dell'opera se non li denuncia entro 8 giorni dalla scoperta (art. 2226 c.c.). Dopo il termine, il diritto è perso irrecuperabilmente.
+
+**difformità dell'opera** — vizio contrattuale che ricorre quando l'opera realizzata *non corrisponde* alle specifiche pattuite: la funzionalità è presente ma non rispetta i parametri concordati (es. sistema che gestisce 1.000 utenti anziché 10.000 come previsto dal contratto). Distinta dai **vizi** (difetti intrinseci) e dalla **impossibilità sopravvenuta**.
 
 **diritto d'autore (D.A.)** — insieme dei diritti riconosciuti all'autore di un'opera dell'ingegno. Si compone di diritti morali (irrinunciabili, inalienabili, imprescrittibili) e diritti patrimoniali (cedibili, durata 70 anni post mortem). Sorge al momento della creazione dell'opera senza adempimenti formali (art. 6 LDA). Fonte principale: L. 633/1941.
 
@@ -65,6 +75,8 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 **estrazione** (banche di dati) — trasferimento permanente o temporaneo della totalità o di una parte sostanziale del contenuto di una BD su un altro supporto, effettuato con qualsiasi mezzo e in qualsiasi forma (art. 102-bis LDA). Distinta dalla semplice consultazione. Vietata senza autorizzazione del costitutore.
 
 ## F
+
+**foro competente** — tribunale territorialmente competente a decidere le controversie relative a un determinato contratto o rapporto giuridico. Le parti possono scegliere il foro convenzionale (art. 29 c.p.c.) in deroga alle regole ordinarie di competenza territoriale (es. residenza del convenuto). Rilevante: nei contratti B2B tra soggetti italiani, la clausola "foro di Bologna" stabilisce che eventuali liti vengano discusse davanti al Tribunale di Bologna, indipendentemente da dove risiedono le parti. Non applicabile liberamente nei contratti B2C (tutela del consumatore).
 
 **fattispecie** — descrizione astratta di una situazione a cui la norma ricollega effetti giuridici. La norma si applica quando il caso concreto corrisponde alla fattispecie astratta.
 
@@ -120,6 +132,8 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 
 **persona giuridica** — ente (società, associazione, fondazione, ecc.) a cui l'ordinamento riconosce soggettività giuridica distinta da quella delle persone fisiche che la compongono. Ha capacità giuridica propria.
 
+**prescrizione** — estinzione di un diritto per mancato esercizio protratto per un periodo stabilito dalla legge. A differenza della decadenza, la prescrizione può essere interrotta (es. dalla messa in mora del debitore) o sospesa. Rilevante in D6: l'azione per difformità o vizi dell'opera si prescrive in **1 anno dalla consegna** (art. 2226 c.c.); entro tale termine, chi ha denunciato il vizio nei termini di decadenza deve anche agire in giudizio, pena la perdita definitiva del diritto.
+
 ## R
 
 **principio di esaurimento comunitario** — il diritto di distribuzione di un'opera (o copia di SW) si esaurisce nella Comunità europea alla prima vendita effettuata dal titolare o con il suo consenso. Dopo la prima vendita, il titolare non può più controllare la rivendita di quell'esemplare. Non si applica alla messa a disposizione on demand (art. 17 LDA).
@@ -150,8 +164,14 @@ Aggiornato a ogni sessione. Ordine alfabetico.
 
 ## T
 
+**termine essenziale** — termine fissato nel contratto la cui scadenza è di importanza tale per una delle parti da rendere inutile la prestazione tardiva. Se il termine è essenziale e scade senza adempimento, la parte avvantaggiata può esigere l'esecuzione nonostante la scadenza *solo* se ne dà notizia all'altra entro **3 giorni** (art. 1457 c.c.); in mancanza, il contratto si intende risoluto di diritto. Usato nei contratti di sviluppo software per stabilire date di consegna perentorie.
+
 **testo consolidato** — versione attualmente in vigore di una norma, che incorpora tutte le modifiche successive apportate da altre norme. Non reperibile in Gazzetta Ufficiale; si trova nelle banche dati giuridiche (es. normattiva.it, DeJure).
 
 **testo storico** — testo di una norma così come pubblicato per la prima volta in Gazzetta Ufficiale. L'unica versione che fa fede a tutti gli effetti di legge è quella pubblicata in GU; tuttavia la GU non riporta il testo modificato vigente, bensì solo i riferimenti alle modifiche successive.
 
 **troncamento** — operatore di ricerca nelle banche dati che sostituisce una sequenza di caratteri con `*`. Permette di trovare tutte le forme di una radice: es. `responsabil*` recupera responsabile, responsabilità, responsabilizzare. Distinto dal mascheramento (`?` = un solo carattere).
+
+## V
+
+**vizi dell'opera** — difetti *intrinseci* dell'opera che la rendono inidonea all'uso o ne diminuiscono il valore, indipendentemente dalla corrispondenza alle specifiche (art. 2226 c.c.). Possono essere palesi (rilevabili con esame ordinario al momento dell'accettazione) o **occulti** (non rilevabili se non dopo l'uso o con esame approfondito). Distinti dalle difformità (non corrispondenza alle specifiche). Regime: denuncia entro 8 giorni dalla scoperta a pena di decadenza; prescrizione in 1 anno dalla consegna.

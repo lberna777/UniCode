@@ -20,11 +20,13 @@
 | Materia | Ore stimate | Giorni a 5.5h/gg |
 |---|---|---|
 | SysAdmin (4 moduli + buffer) | ~37h | ~7 |
-| Diritto (6 moduli + buffer) | ~33h | ~6 |
+| Diritto (9 moduli + buffer) | ~54h | ~10 |
 | Security (12 moduli + buffer) | ~111h | ~20 |
-| **Totale** | **~181h** | **~33** |
+| **Totale** | **~202h** | **~37** |
 
-Ore disponibili al 17/07: ~435h (79 gg × 5.5h) — margine 2.4×
+Ore disponibili al 17/07: ~435h (79 gg × 5.5h) — margine 2.1×
+
+> **Nota 2026-05-15**: aggiunti 3 nuovi moduli Diritto (D9 Firme Elettroniche, D10 Commercio Elettronico, D11 Reati Informatici) — PDF caricati il 15/05. Stima ore Diritto aggiornata da ~33h a ~54h (+6h × 3 moduli + buffer).
 
 ---
 

@@ -1,5 +1,5 @@
 # Master Map — Studio Attivo Universitario
-**Aggiornato**: 2026-05-14 | **Sessione**: 22
+**Aggiornato**: 2026-05-15 | **Sessione**: 23
 
 > **Istruzione per l'AI**: Leggere questo file all'inizio di ogni sessione per riprendere il filo. Non assumere mai che i moduli "verificati" negli appunti GitHub siano stati interiorizzati, a meno che non compaiano come ✅ nel log di sessione qui sotto.
 
@@ -405,7 +405,7 @@ I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento p
 **Corso**: Diritto dell'Informatica T  
 **PDF**: `06_DirInfo_2026_SchemaContratt_DEF.pdf`  
 **Concetti chiave**: lettura guidata di un contratto reale, clausole fondamentali, garanzie, penali, proprietà intellettuale nel contratto, foro competente  
-**Stato**: ⬜ Da fare
+**Stato**: 🔄 Appunti elaborati (`claudeAppunti/APPUNTI DIRITTO/appunti_moduloD6_contratto_sviluppo_software.md`) — domande di autoverifica da completare in autonomia
 
 #### Modulo D7 — La Proprietà Industriale
 **Corso**: Diritto dell'Informatica T  
@@ -421,9 +421,52 @@ I titoli di Virtuale e i nomi file effettivi divergono. Tabella di riferimento p
 **Concetti chiave**: principi del trattamento (art. 5 GDPR), basi giuridiche (art. 6), diritti degli interessati (artt. 15-22), titolare/responsabile, DPO, DPIA, notifica violazioni, adattamento italiano  
 **Stato**: ⬜ Da fare
 
+#### Modulo D9 — Firme Elettroniche
+**Corso**: Diritto dell'Informatica T  
+**PDF**: `09_DirInfo_2026_FirmeElettr_DEF.pdf`  
+**Concetti chiave**: firma elettronica semplice/avanzata/qualificata, firma digitale, eIDAS (Reg. UE 910/2014), valore probatorio, certificati qualificati, TSP  
+**Stato**: ⬜ Da fare
+
+#### Modulo D10 — Commercio Elettronico
+**Corso**: Diritto dell'Informatica T  
+**PDF**: `10_DirInfo_2026_CommercioElettronico_DEF.pdf`  
+**Concetti chiave**: D.Lgs. 70/2003 (recepimento Dir. 2000/31/CE), contratti online, obblighi informativi del prestatore, responsabilità degli intermediari, country of origin principle  
+**Stato**: ⬜ Da fare
+
+#### Modulo D11 — Reati Informatici
+**Corso**: Diritto dell'Informatica T  
+**PDF**: `11_DirInfo_2026_ReatiInformatici_DEF.pdf`  
+**Concetti chiave**: accesso abusivo a sistema informatico (art. 615-ter c.p.), danneggiamento informatico, frode informatica, intercettazione illecita, Convenzione di Budapest, responsabilità penale  
+**Stato**: ⬜ Da fare
+
 ---
 
 ## Log di Sessione
+
+### Sessione 23 — 2026-05-15 (completata)
+**Focus**: Diritto D6 — Contratto di sviluppo software
+
+**Coperto in sessione**:
+- Aggiornata master map: aggiunti moduli D9 (Firme Elettroniche), D10 (Commercio Elettronico), D11 (Reati Informatici) — PDF caricati da Lorenzo
+- Diritto ora 11 moduli (non 8); ESAMI SCELTI.md aggiornato (~54h stima)
+- Letto PDF D6 (52 slide); creata lezione D6 → `claudeLezioni/LEZIONI DIRITTO/lezione_moduloD6_contratto_sviluppo_software.md`
+- Appunti grezzi D6 elaborati → `claudeAppunti/APPUNTI DIRITTO/appunti_moduloD6_contratto_sviluppo_software.md`
+  - 19 domande aperte risolte (differenza opera/opera intellettuale, determinabilità oggetto, ruolo artt. 2229/2230/2231, albo ingegneri, obblighi committente, terzi nell'indennizzo, difformità vs vizi, art. 2226 spiegato, decadenza/prescrizione, software terzi, art. 2228 vs variazioni necessarie, secondo punto titolarità DPI, licenza vs cessione, processo di verifica, saldo finale, servizi aggiuntivi, tabella risoluzione, legge applicabile/foro, dati personali/GDPR)
+  - 2 imprecisioni corrette: dati personali (non sono quelli dell'ingegnere ma di terzi negli archivi del committente); variazioni richieste/necessarie (non fuse — sono concetti distinti)
+  - 2 sezioni integrate: artt. 1176/2236 (diligenza professionale, responsabilità per problemi di speciale difficoltà); nota "Attenzione ripasso" con domande d'esame segnalate dalla prof
+  - Domande di autoverifica: 5 domande presenti — da rispondere in autonomia durante lo studio
+
+**Non coperto / da riprendere**:
+- Autoverifica D6 — da completare leggendo gli appunti
+- SysAdmin 3D Es. 2–6 — invariato
+- Security S1 LAB — invariato
+
+**Prossima sessione — da dove partire**:
+→ **Diritto D7** — Proprietà Industriale (`07_DirInfo_2026_ProprietàIndustriale.pdf`) — eseguire `/lezione D7`
+→ **SysAdmin 3D Es. 2–6** — avviare VM, eseguire: `ping`, `ss -tlnp`, `/etc/hosts`, `dig`, `tcpdump`. Poi `/appunti 3D`
+→ **Security S1 LAB** — lezione pronta, eseguire le 6 sezioni sulla VM Kali
+
+---
 
 ### Sessione 22 — 2026-05-14 (completata)
 **Focus**: Diritto D5 — Contratti a oggetto informatico
@@ -826,9 +869,9 @@ Concetto da chiarire: **la stringa di permessi** (`drwxr-xr-x`) — la spiegazio
 ```
 SysAdmin  ████████░░  77%   (10/13 moduli ✅)
 Security  ░░░░░░░░░░   0%   (0/12 moduli ✅)
-Diritto   █████░░░░░  63%   (5/8  moduli ✅)
+Diritto   █████░░░░░  45%   (5/11 moduli ✅)
 ```
 
 *SysAdmin (13): 0A 0B 1A 1B 2A 2B 2C 3A 3B 3C ✅ | 3D 🔄 | 3E 3F ⬜*
 *Security (12): S1 🔄 | S2–S12 ⬜*
-*Diritto  (8):  D1 ✅ D2 ✅ D3 ✅ D4 ✅ D5 ✅ | D6–D8 ⬜*
+*Diritto (11):  D1 ✅ D2 ✅ D3 ✅ D4 ✅ D5 ✅ | D6 🔄 | D7–D11 ⬜*
